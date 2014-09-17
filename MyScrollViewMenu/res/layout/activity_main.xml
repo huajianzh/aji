@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <HorizontalScrollView
+        android:id="@+id/m_scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/m_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="80dip"
+                android:layout_height="40dip"
+                android:background="#ff999999"
+                android:gravity="center"
+                android:text="内容1"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:layout_width="80dip"
+                android:layout_height="40dip"
+                android:background="#ff999999"
+                android:gravity="center"
+                android:text="内容2"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:layout_width="80dip"
+                android:layout_height="40dip"
+                android:background="#ff999999"
+                android:gravity="center"
+                android:text="内容3"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:layout_width="80dip"
+                android:layout_height="40dip"
+                android:background="#ff999999"
+                android:gravity="center"
+                android:text="内容4"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:layout_width="80dip"
+                android:layout_height="40dip"
+                android:background="#ff999999"
+                android:gravity="center"
+                android:text="内容5"
+                android:textColor="#ffffffff" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>
